@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Booking Wizard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>💰 Smart Cleaning Quote</h2>
+
+  <!-- SERVICE -->
+  <label>Service Type</label>
+  <select id="service">
+    <option value="">Select</option>
+    <option value="bond">Bond Cleaning</option>
+    <option value="vacate">Vacate Cleaning</option>
+    <option value="end">End of Lease</option>
+  </select>
+
+  <hr>
+
+  <!-- INPUTS -->
+  <div id="formArea"></div>
+
+  <hr>
+
+  <h3>Total: $<span id="total">0</span></h3>
+
+  <button id="bookBtn">Get Instant Quote</button>
+
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>

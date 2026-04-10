@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Cleaning Quote Calculator",
+  "version": "1.0",
+  "description": "Get instant cleaning quotes for Bond, Vacate & End of Lease cleaning",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
